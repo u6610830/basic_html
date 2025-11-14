@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to right, #f5f6fa, #dfe9f3);
+  color: #333;
+}
+
+header {
+  background-color: #005f99; 
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 900px;
+  margin: 30px auto;
+  gap: 30px;
+}
+
+section.biography {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+section.biography img {
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+section.biography h2 {
+  color: #005f99;
+  margin-bottom: 10px;
+}
+
+section.achievements {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+section.achievements h2 {
+  color: #005f99;
+  margin-bottom: 15px;
+}
+
+section.achievements ul {
+  padding-left: 20px;
+  line-height: 1.6;
+}
+
+section.achievements li {
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #003f66;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 30px;
+  font-size: 0.9em;
+}
